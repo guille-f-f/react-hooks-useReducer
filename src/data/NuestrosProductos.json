@@ -1,0 +1,33 @@
+[
+    {
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_717878-MLA45168663099_032021-F.webp",
+        "producto": "Licuadora Peabody PE-LN601 1.5 L negra con jarra de plástico 220V",
+        "descripcion": "Un electrodoméstico infaltable en tu casa. La licuadora Peabody PE-LN601 te va a ayudar a obtener resultados increíbles en todo lo que prepares, ya sea que quieras disfrutar de una bebida bien fría, de salsas y sopas, o de postres deliciosos. ¡Tenela siempre a mano!",
+        "precio": 10202
+    },{
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_600099-MLA40939775511_022020-F.webp",
+        "producto": "Balanza de cocina digital Electronic SF-400 pesa hasta 10kg blanca",
+        "descripcion": "La balanza de cocina SF-400 de Electronic tiene función TARA, que te permite calcular el peso del recipiente que estás utilizando, para luego volver a 0 y que puedas pesar los ingredientes de tu receta sin errores.",
+        "precio": 799
+    },{
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_917175-MLA40253055402_122019-F.webp",
+        "producto": "Juguera eléctrica Ultracomb JG 2703 con accesorios",
+        "descripcion": "¿Hay algo mejor que un jugo fresco en cualquier momento del día? Tus frutas y verduras preferidas aportan las vitaminas y minerales que tu cuerpo necesita, y con la juguera Ultracomb podrás hacerlo muy fácil.",
+        "precio": 15121
+    },{
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_943982-MLA49389685113_032022-F.webp",
+        "producto": "Pava eléctrica Mega Express ME-621 acero inoxidable 220V 1.8L",
+        "descripcion": "¡Tené el agua caliente siempre lista! Con la pava eléctrica Mega Express ME-621 vas a poder disfrutar de una bebida caliente en minutos. Ganá tiempo y prepará ese mate, cafecito o porqué no, esa sopa instantánea que tanto te gusta.",
+        "precio": 4999
+    },{
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_608731-MLA50773356700_072022-F.webp",
+        "producto": "Arrocera + Vaporera Con Sushi Kit Atma Sumb21p 1.8lts 700w",
+        "descripcion": "Cociná todo tipo de arroz, legumbres, carnes, vegetales y comidas al vapor en un mismo lugar.",
+        "precio": 19599
+    },{
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_668428-MLA45293283628_032021-F.webp",
+        "producto": "Cafetera Nescafé Moulinex Dolce Gusto Genio S automática blanca para cápsulas monodosis 230V",
+        "descripcion": "Con su larga trayectoria Nescafé es líder en el mercado de bebidas y máquinas de café. Esta marca se destaca por hacer de tu café una obra de arte, pero sobre todo exquisito. Su gran variedad en cuanto a máquinas y sabores la convierten en tu compañera ideal para cualquier ocasión, sea en la oficina, en tu hogar o simplemente compartir un momento delicioso.",
+        "precio": 40562
+    }
+]
