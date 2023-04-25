@@ -1,5 +1,7 @@
 import types from "../components/types";
 
+
+// Estado inicial
 const initialProductState = {
   products: [
     { id: 1, title: "Product #1" },
@@ -11,6 +13,8 @@ const initialProductState = {
   activeProducts: { id: 2, title: "Product #2" }, // Aqui simplemente se podria colocar el id
 };
 
+
+// Funcion reducer
 const productReducer = (state, action) => {
   switch (action.type) {
 

@@ -1,0 +1,20 @@
+.title {
+    font-size: 4rem;
+    color: blueviolet;
+}
+.cart-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 100px;
+    font-size: 3rem;
+    width: 100px;
+    border-radius: 50%;
+    opacity: .7;
+}
+.cart-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+}
