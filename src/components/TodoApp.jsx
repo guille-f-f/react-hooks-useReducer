@@ -6,10 +6,8 @@ const TYPES = {
   DELETE: 'DELETE'
 }
 
-const initialTodos = [
-  { id: 1, title: "Todo #1" },
-  { id: 2, title: "Todo #2" },
-];
+const initialTodos = [];
+const initialText = '';
 
 const reducer = (state, action) => {
   switch(action.type) {
@@ -33,6 +31,7 @@ const TodoApp = () => {
       type: TYPES.ADD, 
       payload: newTodo
     })
+    setText(initialText)
   }
 
   return (
@@ -50,7 +49,7 @@ const TodoApp = () => {
       <form onSubmit={handleSubmit}>
         <input
           type='text'
-          plaveholder='Todo'
+          placeholder=' Item de lista'
           // Para enlazar este 'input' con el estado tenemos que hacer dos cosas, asignar un 'value' y controlar el 'onChange'
           value={text}
           onChange={e => setText(e.target.value)}
