@@ -14,7 +14,6 @@ const Item = (props) => {
       <Button variant='danger' onClick={() => removeItem(id, false)}>Eliminar uno</Button>
       {/* <Button variant='danger' onClick={() => removeAllItem(id)}>Eliminar todos</Button> */}
       <Button variant='danger' onClick={() => removeItem(id, true)}>Eliminar todos</Button>
-
     </div>
   )
 }
