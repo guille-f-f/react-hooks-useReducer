@@ -556,7 +556,7 @@ En este proyecto implementamos el carrito visto en TodoApp.jsx mokeando el json 
 --------------------------------------------------------------------------------
 CARRITO: Clase Academia Numen 
 https://campus.academianumen.com/mod/videotime/view.php?id=25117
-1 - Creamos carpetas y componentes:
+1 - Creamos carpetas y componentes, y estructura de componentes:
   componentes
    carritoReducer.jsx // Estado inicial + Fución 'reducer' (función que va a definir el comportamiento)
    actions.jsx o types.jsx
@@ -586,7 +586,7 @@ https://campus.academianumen.com/mod/videotime/view.php?id=25117
     const { productos, carrito } = state
 
     - Productos: mapeamos productos, insertamos tarjeta '<Productos />' y le vamos a pasar por 'props' el id, el objeto, y la función:
-      {productos.map(producto => <Producto key="producto.id" data="producto" addToCart="addToCart" />)}  
+      {productos.map(producto => <Producto key={producto.id} data={producto} addToCart={addToCart} />)}  
 
     - Carrito: mapeamos carrito, insertamos tarjeta '<Item />' y le vamos a pasar las 'props':
       {carrito.map(item => <Item key={item.id} data={item} removeItem={removeItem} removeAllItem={removeAllItem} />)}
